@@ -1,0 +1,196 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+.title {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.6589986336331408) 0%, rgba(3,2,53,1) 0%, rgba(7,7,97,1) 28%, rgba(7,7,99,1) 39%, rgba(8,8,114,1) 47%, rgba(9,9,121,1) 60%, rgba(0,38,120,1) 71%, rgba(2,89,164,1) 80%, rgba(3,134,203,1) 86%, rgba(0,212,255,1) 100%);
+  color: #794c74;
+}
+.rhy{
+  width: 15%;
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  padding: 40px;
+  align-items: center;
+  margin-left: 30px;
+  color: #ededd0;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ededd0;
+}
+
+
+h1, h2 {
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.download-btn {
+  margin: 30px 40px 30px 50px;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding: 3% 8% 7%;
+}
+
+.billu {
+  width: 70%;
+  position: absolute;
+  right: 9%;
+  border-radius: 32% ;
+  border-style: ridge;
+  border-spacing: 7px;
+  border-color:#b6c9f0 ;
+}
+
+/* Navigation Bar */
+.navbar {
+  margin-bottom: 2.5rem;
+  background-color: #b6c9f0;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #325288;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #325288;
+}
+.nav-link {
+  text-align: right;
+  color: #325288;
+}
+
+.navbar-toggler-icon{
+ text-align: right;
+}
+
+/* Featurs Section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 6%;
+  line-height: 1.8rem;
+}
+
+.icon {
+  color: #325288;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #2978b5;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #325288;
+  color: #b6c9f0;
+}
+
+.testimonial-img {
+  width: 180px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #325288;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  padding: 10px 45px;
+}
+.wave{
+  width: 10%;
+  height: 10%
+}
+
+/* Pricing Section */
+.junkie{
+  color: #325288;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: #3d84b8;
+}
+
+.card-body {
+  background-color: #a7c5eb;
+}
+
+@media (max-width: 995px) {
+  .title {
+    text-align: center;
+  }
+  .billu {
+    position: static;
+  }
+}
+
+
+/* Call to Action section */
+#cta {
+  background-color: #325288;
+  text-align: center;
+  color: #ededd0;
+  padding: 8% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.iconz {
+  padding: 20px 15px;
+}
